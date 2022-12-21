@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GodOfJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StreamMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StudentFilterSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StudentForEachSample.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
+      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/runCommonThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +47,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/amand/바탕 화면/GodOfJava/GodOfJava",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StudentFilterSample">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="GodOfJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReferenceSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.MethodReferenceSample" />
+  <component name="RunManager" selected="Application.PredicateExample">
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.PredicateExample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="JAVA8.added.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentForEachSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StudentForEachSample" />
+    <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.calculator" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="JAVA8.added.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runCommonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.runCommonThread" />
+      <module name="GodOfJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA8.added.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateExample" />
+        <item itemvalue="Application.runCommonThread" />
+        <item itemvalue="Application.calculator" />
         <item itemvalue="Application.StudentFilterSample" />
         <item itemvalue="Application.StreamMap" />
-        <item itemvalue="Application.MethodReferenceSample" />
-        <item itemvalue="Application.StudentForEachSample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +136,41 @@
       <option name="presentableId" value="Default" />
       <updated>1671565620573</updated>
     </task>
+    <task id="LOCAL-00001" summary="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
+      <created>1671588121813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671588121813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
   </component>
 </project>

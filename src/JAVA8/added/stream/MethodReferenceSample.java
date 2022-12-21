@@ -3,6 +3,10 @@ package JAVA8.added.stream;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+interface MakeString {
+    String fromBytes(char[] chars);
+}
+
 public class MethodReferenceSample {
     public static void main(String[] args) {
         MethodReferenceSample sample = new MethodReferenceSample();
@@ -30,10 +34,6 @@ public class MethodReferenceSample {
 
     private void staticReference(String[] stringArray) {
         Stream.of(stringArray).forEach(MethodReferenceSample::printResult);
-    }
-
-    interface MakeString {
-        String fromBytes(char[] chars);
     }
 
     private void createInstance() {
