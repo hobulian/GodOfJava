@@ -9,7 +9,7 @@ public class StreamMap {
     public static void main(String[] args) {
         StreamMap streamMap = new StreamMap();
         List<Integer> intList = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-        StreamMap.multiplyWithFor(intList);
+        streamMap.multiplyWithFor(intList);
 
         List<StudentDTO> studentList = new ArrayList<>();
         studentList.add(new StudentDTO("요다", 39, 29, 10));
@@ -20,7 +20,7 @@ public class StreamMap {
         System.out.println(nameList);
     }
 
-    public static void multiplyWithFor(List<Integer> intList) {
+    public void multiplyWithFor(List<Integer> intList) {
 //        for (int value : intList) {
 //            int temp = value * 3;
 //            System.out.println(temp);

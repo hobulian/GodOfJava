@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/PredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/runCommonThread.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/GenericMethod/GenericWildcardSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/GenericSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/GenericSample_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/CarWildcardSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/WildcardGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/WildcardSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/stream/StreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StreamMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +56,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/Users/amand/바탕 화면/GodOfJava/GodOfJava",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PredicateExample">
-    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.PredicateExample" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Generic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GenericWildcardSample">
+    <configuration name="CarWildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.WildCard.BoundedWildcard.CarWildcardSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JAVA8.added.lambda.*" />
+          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StreamMap" />
+    <configuration name="GenericSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.WhatIsGeneric.GenericSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentFilterSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.StudentFilterSample" />
+    <configuration name="GenericSample_Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.WhatIsGeneric.GenericSample_Generic" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.calculator" />
+    <configuration name="GenericWildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GenericMethod.GenericWildcardSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JAVA8.added.lambda.*" />
+          <option name="PATTERN" value="Generic.GenericMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runCommonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA8.added.lambda.runCommonThread" />
+    <configuration name="WildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.WildCard.WildcardSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JAVA8.added.lambda.*" />
+          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredicateExample" />
-        <item itemvalue="Application.runCommonThread" />
-        <item itemvalue="Application.calculator" />
-        <item itemvalue="Application.StudentFilterSample" />
-        <item itemvalue="Application.StreamMap" />
+        <item itemvalue="Application.GenericWildcardSample" />
+        <item itemvalue="Application.CarWildcardSample" />
+        <item itemvalue="Application.WildcardSample" />
+        <item itemvalue="Application.GenericSample_Generic" />
+        <item itemvalue="Application.GenericSample" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671588121813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가">
+      <created>1671589946910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671589946910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
+    <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
   </component>
 </project>

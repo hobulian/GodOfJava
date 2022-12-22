@@ -27,7 +27,7 @@ public class MethodReferenceSample {
         System.out.println(value);
     }
 
-    private static void objectReference(String[] stringArray) {
+    private void objectReference(String[] stringArray) {
         Arrays.sort(stringArray, String::compareToIgnoreCase);
         Arrays.asList(stringArray).stream().forEach(System.out::println);
     }
