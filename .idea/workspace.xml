@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/GenericMethod/GenericWildcardSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO_Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/GenericSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/GenericSample_Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/BoundedWildcard/CarWildcardSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/WildcardGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard/WildcardSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/Deprecated/AnnotationDeprecated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/Deprecated/AnnotationSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/Override/AnnotationOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/Override/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotationCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotationSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/Mutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/PSVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/MethodReferenceSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/stream/StreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/stream/StreamMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/amand/바탕 화면/GodOfJava/GodOfJava",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amand/바탕 화면/GodOfJava/GodOfJava&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread" />
       <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericWildcardSample">
-    <configuration name="CarWildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.WildCard.BoundedWildcard.CarWildcardSample" />
+  <component name="RunManager" selected="Application.UserAnnotationCheck">
+    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.Race_Condition.BankTest" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
+          <option name="PATTERN" value="Thread.Race_Condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.WhatIsGeneric.GenericSample" />
+    <configuration name="Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_JAVA.Immutable" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
+          <option name="PATTERN" value="Basic_JAVA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericSample_Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.WhatIsGeneric.GenericSample_Generic" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.DeadLock.Main" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
+          <option name="PATTERN" value="Thread.DeadLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericWildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.GenericMethod.GenericWildcardSample" />
+    <configuration name="Mutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_JAVA.Mutable" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.GenericMethod.*" />
+          <option name="PATTERN" value="Basic_JAVA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.WildCard.WildcardSample" />
+    <configuration name="UserAnnotationCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Annotation.UserAnnotation.UserAnnotationCheck" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.WildCard.BoundedWildcard.*" />
+          <option name="PATTERN" value="Annotation.UserAnnotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericWildcardSample" />
-        <item itemvalue="Application.CarWildcardSample" />
-        <item itemvalue="Application.WildcardSample" />
-        <item itemvalue="Application.GenericSample_Generic" />
-        <item itemvalue="Application.GenericSample" />
+        <item itemvalue="Application.UserAnnotationCheck" />
+        <item itemvalue="Application.Immutable" />
+        <item itemvalue="Application.Mutable" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +197,16 @@
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Basic_JAVA/PSVM.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
