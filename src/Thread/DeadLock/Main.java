@@ -42,7 +42,7 @@ public class Main {
                     System.out.println("First Thread has object2's lock too");
                     //2.점유와 대기 : object1에 대한 lock을 갖고 있으면서도 object2에 대한 lock을 요구.
                 }
-            }
+            } // Release
         }
     }
 
@@ -64,7 +64,7 @@ public class Main {
                     System.out.println("Second Thread has object1's lock too");
                     //2. 점유와 대기 : object2에 대한 lock을 갖고 있으면서도 object1에 대한 lock을 요구.
                 }
-            }
+            } // Release
         }
     }
 }

@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가">
-      <change afterPath="$PROJECT_DIR$/src/Annotation/Deprecated/AnnotationDeprecated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/Deprecated/AnnotationSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/Override/AnnotationOverride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/Override/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotationCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotationSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/Mutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/PSVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="@Annotation 포함 주말간 공부한 내용들 추가">
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/DynamicBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/DynamicBindingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/Peacock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +62,13 @@
       <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserAnnotationCheck">
-    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.Race_Condition.BankTest" />
+  <component name="RunManager" selected="애플리케이션.DynamicBinding">
+    <configuration name="DynamicBinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_JAVA.DynamicBinding.DynamicBinding" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.Race_Condition.*" />
+          <option name="PATTERN" value="Basic_JAVA.DynamicBinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +81,7 @@
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_JAVA.*" />
+          <option name="PATTERN" value="Basic_JAVA.DynamicBinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +107,7 @@
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_JAVA.*" />
+          <option name="PATTERN" value="Basic_JAVA.DynamicBinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserAnnotationCheck" />
-        <item itemvalue="Application.Immutable" />
-        <item itemvalue="Application.Mutable" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BankTest" />
+        <item itemvalue="애플리케이션.DynamicBinding" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671589946910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="@Annotation 포함 주말간 공부한 내용들 추가">
+      <created>1672095564676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672095564676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,17 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Basic_JAVA/PSVM.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="@Annotation 포함 주말간 공부한 내용들 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Annotation 포함 주말간 공부한 내용들 추가" />
   </component>
 </project>
