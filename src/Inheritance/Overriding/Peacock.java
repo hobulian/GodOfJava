@@ -1,4 +1,4 @@
-package Basic_JAVA.DynamicBinding;
+package Inheritance.Overriding;
 
 class Bird {
     void eat() {
