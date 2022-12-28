@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="동적 바인딩 실습 설명 추가">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/ChildArg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/InheritancePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Interface/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Interface/MemberManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Interface/MemberManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Overriding/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/ParentArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/DynamicBinding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/DynamicBindingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyMemory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/DynamicBinding/Peacock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Overriding/Peacock.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="오버라이딩 부분 수정. 추상 클래스와 인터페이스 추가">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Interface/DefaultImplementedChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Interface/DefaultStaticInferface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672232534798</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="오버라이딩 부분 수정. 추상 클래스와 인터페이스 추가">
+      <created>1672262580061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672262580061</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +218,8 @@
     <MESSAGE value="@Annotation 포함 주말간 공부한 내용들 추가" />
     <MESSAGE value="동적 바인딩 실습" />
     <MESSAGE value="동적 바인딩 실습 설명 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="동적 바인딩 실습 설명 추가" />
+    <MESSAGE value="오버라이딩 부분 수정. 추상 클래스와 인터페이스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="오버라이딩 부분 수정. 추상 클래스와 인터페이스 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
