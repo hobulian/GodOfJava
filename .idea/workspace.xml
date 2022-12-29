@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="@Annotation 포함 주말간 공부한 내용들 추가">
-      <change afterPath="$PROJECT_DIR$/src/Exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/CustomExceptionSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/FinallySample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/MultiCatchSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ThrowSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ThrowableSample.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="TODO list 추가">
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Inner/Anonymous/AnonymousSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Inner/Anonymous/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Inner/Anonymous/MagicButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Inner/InnerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Inner/OuterOfInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/NestValueReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/ReferenceNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Static/OuterOfStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedClass/Static/StaticNestedSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +79,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="NestedClass" />
       <recent name="Thread" />
       <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomExceptionSample">
+  <component name="RunManager" selected="Application.StaticNestedSample">
     <configuration name="CustomExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exception.CustomExceptionSample" />
-      <module name="GodOfJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ExceptionSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
@@ -114,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticNestedSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedClass.Static.StaticNestedSample" />
+      <module name="GodOfJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NestedClass.Inner.Anonymous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticNestedSample" />
         <item itemvalue="Application.CustomExceptionSample" />
         <item itemvalue="Application.ThrowSample" />
         <item itemvalue="Application.ThrowableSample" />
         <item itemvalue="Application.FinallySample" />
-        <item itemvalue="Application.ExceptionSample" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672263782881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exception 연습 내용 추가">
+      <created>1672347831942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672347831942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TODO list 추가">
+      <created>1672347976293</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672347976293</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +266,9 @@
     <MESSAGE value="동적 바인딩 실습 설명 추가" />
     <MESSAGE value="오버라이딩 부분 수정. 추상 클래스와 인터페이스 추가" />
     <MESSAGE value="Default 메소드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default 메소드 추가" />
+    <MESSAGE value="Exception 연습 내용 추가" />
+    <MESSAGE value="TODO list 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO list 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
