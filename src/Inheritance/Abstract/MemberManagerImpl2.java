@@ -3,7 +3,6 @@ package Inheritance.Abstract;
 import Inheritance.MemberDTO;
 
 public class MemberManagerImpl2 extends MemberManagerAbstract {
-
     @Override
     public boolean addMember(MemberDTO member) {
         return false;

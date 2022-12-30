@@ -1,7 +1,6 @@
 package Generic.WildCard;
 
 public class WildcardSample {
-
     public static void main(String[] args) {
         WildcardSample sample = new WildcardSample();
         sample.callWildcardMethod();

@@ -7,7 +7,6 @@ public class CastingDTO_Generic<T> implements Serializable {
     public void setObject(T object) {
         this.object = object;
     }
-
     public T getObject() {
         return object;
     }

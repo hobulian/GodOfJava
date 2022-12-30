@@ -3,7 +3,7 @@ package Exception;
 public class ThrowSample {
     public static void main(String[] args) {
         ThrowSample sample = new ThrowSample();
-        /*
+        /**
         java: unreported exception java.lang.Exception; must be caught or declared to be thrown
         메소드에 throws Exception을 쓸 때는 반드시 throws로 선언된 메소드를 호출한 메소드에서 try-catch로 호출 부분을 감싸야 한다.
          */
@@ -29,7 +29,7 @@ public class ThrowSample {
     */
 
     public void throwException(int num) throws Exception{ // 두 개 이상의 예외를 throws할 때는 콤마로 구분하여 적는다
-        /*
+        /**
         java: unreported exception java.lang.Exception; must be caught or declared to be thrown
         메소드에 throws Exception을 쓸 때는 반드시 throws로 선언된 메소드를 호출한 메소드에서 try-catch로 호출 부분을 감싸야 한다.
          */

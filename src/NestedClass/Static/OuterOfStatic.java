@@ -1,5 +1,6 @@
 package NestedClass.Static;
-/* Nested Class
+
+/** Nested Class
     왜 사용하는가?
     1. 한 곳에섬나 사용되는 클래스를 논리적으로 묶어서 처리해야 할 때 > Static nested class
     2. 캡슐화. 내부 구현을 감추고 싶을 때 > Inner class
@@ -18,7 +19,7 @@ public class OuterOfStatic {
     }
 }
 
-/* Static Nested Class
+/** Static Nested Class
     왜 만드는가?
 
     public class University {

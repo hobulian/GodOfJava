@@ -34,5 +34,4 @@ public class calculator {
         System.out.println("람다 누산기");
         System.out.println(calculateSubtract.operation(5,2));
     }
-
 }

@@ -2,7 +2,7 @@ package Inheritance.Abstract;
 
 import Inheritance.MemberDTO;
 
-/* Abstract 클래스
+/** Abstract 클래스
     선언시 abstract라는 예약어가 클래스 앞에 추가된다
     클래스 내에 abstract로 선언된 메소드가 0개 이상 있어야 한다
     abstract로 선언된 메소드가 하나라도 있으면 그 클래스는 무조건 abstract로 선언되어야 한다

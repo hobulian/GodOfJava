@@ -1,9 +1,7 @@
 package NestedClass.Inner.Anonymous;
 
 public class MagicButton {
-    public MagicButton() {
-
-    }
+    public MagicButton() { }
 
     private EventListener listener;
     public void setListener(EventListener listener) {

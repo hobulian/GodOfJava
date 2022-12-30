@@ -1,6 +1,6 @@
 package Inheritance.Interface;
 
-/* Defualt Method
+/** Defualt Method
     하위 호환성을 위해 제작된 메소드
     해당 인터페이스를 상속받는 구현체들은 디폴트 메소드의 구현도 상속받을 수 있음
     다중 상속 기능도 구현할 수 있음 이 경우에 규칙이 있는데
