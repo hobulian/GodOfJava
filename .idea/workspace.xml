@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Nested Class추가">
-      <change afterPath="$PROJECT_DIR$/src/Collection/ArrayList/ListSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Stack/StackSample.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Collection - Stack, ArrayList 추가">
+      <change afterPath="$PROJECT_DIR$/src/Collection/Queue/QueueSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Set/SetSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotation/Override/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Annotation/Override/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Annotation/UserAnnotation/UserAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_JAVA/Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_JAVA/Mutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_JAVA/PSVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_JAVA/PSVM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/ThrowSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ThrowSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO_Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/WhatIsGeneric/CastingDTO_Generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/WildCard/WildcardSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/WildCard/WildcardSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Abstract/MemberManagerImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/ChildArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/ChildArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Interface/DefaultStaticInferface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Interface/DefaultStaticInferface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Interface/InterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Interface/InterfaceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Interface/MemberManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Interface/MemberManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Overriding/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Overriding/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA8/added/lambda/calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedClass/Inner/Anonymous/MagicButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NestedClass/Inner/Anonymous/MagicButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedClass/Inner/OuterOfInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NestedClass/Inner/OuterOfInner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedClass/Static/OuterOfStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NestedClass/Static/OuterOfStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/DeadLock/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/Race_Condition/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Race_Condition/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +76,13 @@
       <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackSample">
-    <configuration name="CustomExceptionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.CustomExceptionSample" />
+  <component name="RunManager" selected="Application.QueueSample">
+    <configuration name="ListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.ArrayList.ListSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="Collection.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.ArrayList.ListSample" />
+    <configuration name="QueueSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Queue.QueueSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.ArrayList.*" />
+          <option name="PATTERN" value="Collection.Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Set.SetSample" />
+      <module name="GodOfJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ThrowSample" />
-      <module name="GodOfJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueSample" />
+        <item itemvalue="Application.SetSample" />
         <item itemvalue="Application.StackSample" />
         <item itemvalue="Application.ListSample" />
         <item itemvalue="Application.StaticNestedSample" />
-        <item itemvalue="Application.CustomExceptionSample" />
-        <item itemvalue="Application.ThrowSample" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672351799704</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Collection - Stack, ArrayList 추가">
+      <created>1672369792762</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672369792762</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +275,8 @@
     <MESSAGE value="Exception 연습 내용 추가" />
     <MESSAGE value="TODO list 추가" />
     <MESSAGE value="Nested Class추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nested Class추가" />
+    <MESSAGE value="Collection - Stack, ArrayList 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection - Stack, ArrayList 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
