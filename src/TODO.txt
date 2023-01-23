@@ -1,2 +1,3 @@
-TODO[연습] : IO / NIO / Serializable 코드 작성
+TODO[연습] : NIO / Serializable 코드 작성
+TODO[연습] : Socket 코드 작성
 TODO[복습] : 자바의 신 연습 문제 풀어보기

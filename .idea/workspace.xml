@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collection/Map/HashTableSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Map/MapSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Map/PropertiesSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Map/TreeMapSample.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Collection - Map, TreeMap, Property 추가">
+      <change afterPath="$PROJECT_DIR$/src/Collection/Stack/FactorialStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Stack/FibonacciStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/FileManageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/FileSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/FilterFileSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/JPGFileFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/JPGFileNameFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/ManageTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/코기.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
     </list>
@@ -62,30 +70,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Acorn/Project-mid/Todays-Recipe&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/amand/바탕 화면/GodOfJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amand\바탕 화면\GodOfJava\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="IO" />
+      <recent name="Collection.Stack" />
       <recent name="NestedClass" />
       <recent name="Thread" />
       <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PropertiesSample">
-    <configuration name="DequeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Queue.DequeSample" />
+  <component name="RunManager" selected="Application.ManageTextFile">
+    <configuration name="FibonacciStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Stack.FibonacciStack" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Queue.*" />
+          <option name="PATTERN" value="Collection.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Map.HashTableSample" />
+    <configuration name="FileManageClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.FileManageClass" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Map.*" />
+          <option name="PATTERN" value="IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Map.MapSample" />
+    <configuration name="FileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.FileSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Map.*" />
+          <option name="PATTERN" value="IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Map.PropertiesSample" />
+    <configuration name="FilterFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.FilterFileSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Map.*" />
+          <option name="PATTERN" value="IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Map.TreeMapSample" />
+    <configuration name="ManageTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.ManageTextFile" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Map.*" />
+          <option name="PATTERN" value="IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PropertiesSample" />
-        <item itemvalue="Application.TreeMapSample" />
-        <item itemvalue="Application.MapSample" />
-        <item itemvalue="Application.HashTableSample" />
-        <item itemvalue="Application.DequeSample" />
+        <item itemvalue="Application.ManageTextFile" />
+        <item itemvalue="Application.FilterFileSample" />
+        <item itemvalue="Application.FileManageClass" />
+        <item itemvalue="Application.FileSample" />
+        <item itemvalue="Application.FibonacciStack" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +183,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671565620573</updated>
+      <workItem from="1672726370422" duration="765000" />
+      <workItem from="1672728542686" duration="60000" />
+      <workItem from="1672957291812" duration="2881000" />
+      <workItem from="1672993416778" duration="604000" />
+      <workItem from="1673027216710" duration="382000" />
+      <workItem from="1673326670577" duration="3367000" />
+      <workItem from="1673556620445" duration="5116000" />
+      <workItem from="1673606123197" duration="223000" />
+      <workItem from="1673675203813" duration="53000" />
+      <workItem from="1673936646677" duration="33000" />
+      <workItem from="1674453207140" duration="4924000" />
     </task>
     <task id="LOCAL-00001" summary="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
       <created>1671588121813</created>
@@ -248,8 +279,25 @@
       <option name="project" value="LOCAL" />
       <updated>1672421444467</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Collection - Map, TreeMap, Property 추가">
+      <created>1672659825369</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672659825369</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Collection - Map, TreeMap, Property 추가">
+      <created>1672659839926</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672659839926</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -275,6 +323,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성" />
     <MESSAGE value="33장 JAVA 8에서 변경된 것들은? 에서 Lambda, Function 패키지 추가" />
     <MESSAGE value="@Annotation 포함 주말간 공부한 내용들 추가" />
@@ -286,7 +335,19 @@
     <MESSAGE value="TODO list 추가" />
     <MESSAGE value="Nested Class추가" />
     <MESSAGE value="Collection - Stack, ArrayList 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection - Stack, ArrayList 추가" />
+    <MESSAGE value="Collection - Map, TreeMap, Property 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection - Map, TreeMap, Property 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Collection/Stack/FibonacciStack.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
