@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Collection - Map, TreeMap, Property 추가">
-      <change afterPath="$PROJECT_DIR$/src/Collection/Stack/FactorialStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Stack/FibonacciStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/FileManageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/FileSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/FilterFileSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/JPGFileFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/JPGFileNameFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/ManageTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/코기.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Collection - IO 실습">
+      <change afterPath="$PROJECT_DIR$/src/IO/NIO/NioDetailedSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/NIO/NioSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serializable/ManageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serializable/SerialDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Socket/DatagramClientSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Socket/DatagramServerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Socket/SocketClientSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Socket/SocketServerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/nio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/serial.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
     </list>
@@ -70,42 +68,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/amand/바탕 화면/GodOfJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amand/바탕 화면/GodOfJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amand\바탕 화면\GodOfJava\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Socket" />
+      <recent name="IO.NIO" />
       <recent name="IO" />
       <recent name="Collection.Stack" />
       <recent name="NestedClass" />
-      <recent name="Thread" />
-      <recent name="Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ManageTextFile">
-    <configuration name="FibonacciStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Stack.FibonacciStack" />
+  <component name="RunManager" selected="Application.DatagramClientSample">
+    <configuration name="DatagramClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket.DatagramClientSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.Stack.*" />
+          <option name="PATTERN" value="Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileManageClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.FileManageClass" />
+    <configuration name="DatagramServerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket.DatagramServerSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.*" />
+          <option name="PATTERN" value="Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.FileSample" />
+    <configuration name="NioDetailedSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.NIO.NioDetailedSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.*" />
+          <option name="PATTERN" value="IO.NIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.FilterFileSample" />
+    <configuration name="SocketClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket.SocketClientSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.*" />
+          <option name="PATTERN" value="Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.ManageTextFile" />
+    <configuration name="SocketServerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket.SocketServerSample" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.*" />
+          <option name="PATTERN" value="Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManageTextFile" />
-        <item itemvalue="Application.FilterFileSample" />
-        <item itemvalue="Application.FileManageClass" />
-        <item itemvalue="Application.FileSample" />
-        <item itemvalue="Application.FibonacciStack" />
+        <item itemvalue="Application.DatagramClientSample" />
+        <item itemvalue="Application.DatagramServerSample" />
+        <item itemvalue="Application.SocketClientSample" />
+        <item itemvalue="Application.SocketServerSample" />
+        <item itemvalue="Application.NioDetailedSample" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +191,9 @@
       <workItem from="1673606123197" duration="223000" />
       <workItem from="1673675203813" duration="53000" />
       <workItem from="1673936646677" duration="33000" />
-      <workItem from="1674453207140" duration="4924000" />
+      <workItem from="1674453207140" duration="5247000" />
+      <workItem from="1674467993301" duration="52000" />
+      <workItem from="1674658070187" duration="8966000" />
     </task>
     <task id="LOCAL-00001" summary="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
       <created>1671588121813</created>
@@ -293,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672659839926</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Collection - IO 실습">
+      <created>1674465074049</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674465074049</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Collection - IO 실습">
+      <created>1674465086722</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674465086722</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +350,8 @@
     <MESSAGE value="Nested Class추가" />
     <MESSAGE value="Collection - Stack, ArrayList 추가" />
     <MESSAGE value="Collection - Map, TreeMap, Property 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection - Map, TreeMap, Property 추가" />
+    <MESSAGE value="Collection - IO 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection - IO 실습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
