@@ -4,19 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Collection - IO 실습">
-      <change afterPath="$PROJECT_DIR$/src/IO/NIO/NioDetailedSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/NIO/NioSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serializable/ManageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serializable/SerialDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket/DatagramClientSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket/DatagramServerSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket/SocketClientSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Socket/SocketServerSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/nio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/serial.obj" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="NIO / Serializable 관련 내용 코딩">
+      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/RunDaemonThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/RunEndlessThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/RamenCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/RamenProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/currentThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/NameCalcThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunMultiThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunnableSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/ThreadSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/CommonCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/ModifyAmountThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/RunSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadGroup/RunGroupThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/ObjectMethods/RunObjectThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/ObjectMethods/StateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/RunSupportThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/SleepThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Volatile/RunVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/Volatile/VolatileSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,29 +93,38 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Thread" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amand\바탕 화면\GodOfJava\test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Thread" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread" />
       <recent name="Socket" />
       <recent name="IO.NIO" />
       <recent name="IO" />
       <recent name="Collection.Stack" />
-      <recent name="NestedClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DatagramClientSample">
-    <configuration name="DatagramClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.DatagramClientSample" />
+  <component name="RunManager" selected="Application.RunVolatile">
+    <configuration name="RunGroupThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadGroup.RunGroupThreads" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="Thread.ThreadGroup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatagramServerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.DatagramServerSample" />
+    <configuration name="RunObjectThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadState.ObjectMethods.RunObjectThreads" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="Thread.ThreadState.ObjectMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioDetailedSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.NIO.NioDetailedSample" />
+    <configuration name="RunSupportThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadState.RunSupportThreads" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.NIO.*" />
+          <option name="PATTERN" value="Thread.ThreadState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClientSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.SocketClientSample" />
+    <configuration name="RunVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.Volatile.RunVolatile" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="Thread.Volatile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.SocketServerSample" />
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadLocal.ThreadLocalTest" />
       <module name="GodOfJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="Thread.ThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DatagramClientSample" />
-        <item itemvalue="Application.DatagramServerSample" />
-        <item itemvalue="Application.SocketClientSample" />
-        <item itemvalue="Application.SocketServerSample" />
-        <item itemvalue="Application.NioDetailedSample" />
+        <item itemvalue="Application.RunVolatile" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.RunGroupThreads" />
+        <item itemvalue="Application.RunObjectThreads" />
+        <item itemvalue="Application.RunSupportThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +215,12 @@
       <workItem from="1674453207140" duration="5247000" />
       <workItem from="1674467993301" duration="52000" />
       <workItem from="1674658070187" duration="8966000" />
+      <workItem from="1674675035775" duration="86000" />
+      <workItem from="1674695538342" duration="566000" />
+      <workItem from="1674710764963" duration="973000" />
+      <workItem from="1674770257643" duration="759000" />
+      <workItem from="1674791862570" duration="2933000" />
+      <workItem from="1674805954044" duration="6890000" />
     </task>
     <task id="LOCAL-00001" summary="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
       <created>1671588121813</created>
@@ -307,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674465086722</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="NIO / Serializable 관련 내용 코딩">
+      <created>1674675113029</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674675113029</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +385,8 @@
     <MESSAGE value="Collection - Stack, ArrayList 추가" />
     <MESSAGE value="Collection - Map, TreeMap, Property 추가" />
     <MESSAGE value="Collection - IO 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection - IO 실습" />
+    <MESSAGE value="NIO / Serializable 관련 내용 코딩" />
+    <option name="LAST_COMMIT_MESSAGE" value="NIO / Serializable 관련 내용 코딩" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
