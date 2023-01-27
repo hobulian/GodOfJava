@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="NIO / Serializable 관련 내용 코딩">
-      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/RunDaemonThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Daemon/RunEndlessThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/RamenCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/RamenProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Ramen/currentThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/NameCalcThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunMultiThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/RunnableSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Runnable_Thread/ThreadSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/CommonCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/ModifyAmountThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Synchronized/RunSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadGroup/RunGroupThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/ObjectMethods/RunObjectThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/ObjectMethods/StateThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/RunSupportThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadState/SleepThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Volatile/RunVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/Volatile/VolatileSample.java" afterDir="false" />
+    <list default="true" id="87ff7b53-0d8b-42c3-acdf-0250bb987ec9" name="Changes" comment="Thread 관련 내용들 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/Volatile/RunVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Volatile/RunVolatile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +198,8 @@
       <workItem from="1674710764963" duration="973000" />
       <workItem from="1674770257643" duration="759000" />
       <workItem from="1674791862570" duration="2933000" />
-      <workItem from="1674805954044" duration="6890000" />
+      <workItem from="1674805954044" duration="6970000" />
+      <workItem from="1674821382620" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="33장 JAVA 8에서 변경된 것들은? 에서 Stream 예제 코드 작성">
       <created>1671588121813</created>
@@ -341,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674675113029</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Thread 관련 내용들 추가">
+      <created>1674821301993</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674821301993</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +372,8 @@
     <MESSAGE value="Collection - Map, TreeMap, Property 추가" />
     <MESSAGE value="Collection - IO 실습" />
     <MESSAGE value="NIO / Serializable 관련 내용 코딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="NIO / Serializable 관련 내용 코딩" />
+    <MESSAGE value="Thread 관련 내용들 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread 관련 내용들 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
